@@ -7,7 +7,7 @@
   --cl-item-width: 150px;
 
   width: 100%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .cl-container {
@@ -18,7 +18,7 @@
   margin: 0 auto;
   position: relative;
 
-  border: 2px solid blueviolet;
+  /* border: 2px solid blueviolet; */
 }
 
 .cl-item {
@@ -30,7 +30,7 @@
   opacity: 0;
   z-index: 0;
 
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
 }
 
 .cl-item img {

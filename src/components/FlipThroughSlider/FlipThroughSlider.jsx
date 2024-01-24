@@ -92,7 +92,7 @@ const FlipThroughSlider = () => {
           >
             {carouselData?.slice(0, 5)?.map((item, index) => (
               <div className={`cl-item cl-item-${index + 1}`} key={item.id}>
-                <img src={item.imgUrl} alt="" />
+                <img src={item.imgUrl} alt={`image-${index + 1}`} />
               </div>
             ))}
           </div>
